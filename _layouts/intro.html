@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+    crossorigin="anonymous">
+  <style>
+    body {
+  background: #333;
+  color: #fff;
+}
+
+.navbar {
+  border-bottom: #AB2328 3px solid;
+  opacity: 0.8;
+}
+
+#home-section {
+  background: url(../img/home.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px;
+}
+
+#home-section .dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 700px;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+#home-section .home-inner {
+  padding-top: 125px;
+}
+
+#home-section .card-form {
+  opacity: 0.8;
+}
+
+#home-section .fas,
+#pathway-section .fas {
+  color: #AB2328;
+  background: #fff;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#statement-section .fas,
+#share-section .fas {
+  background: #333;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#contact-section {
+
+  min-height: 700px;
+  overflow: hidden;
+  position: relative;
+}
+
+#contact-section video {
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  top: 50%;
+  left: 50%;
+  z-index: -100;
+  width: auto;
+  height: auto;
+  transform: translate(-50%,-50%);
+}
+
+#contact-section .dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 700px;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+#contact-section .home-inner {
+  padding-top: 150px;
+}
+
+#contact-section .card-form {
+  opacity: 0.8;
+}
+
+
+  </style>
+  <title>Toronto Skillz Academy Introduction</title>
+</head>
+
+<body data-spy="scroll" data-target="#main-nav" id="home">
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top" id="main-nav">
+    <div class="container">
+      <a href="index.html" class="navbar-brand">Toronto Skillz FC</a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a href="#home" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#statement-head-section" class="nav-link">Philosophy</a>
+          </li>
+          <li class="nav-item">
+            <a href="#development-section" class="nav-link">Development</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact-section" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HOME SECTION -->
+  <header id="home-section">
+    <div class="dark-overlay">
+      <div class="home-inner container">
+        <div class="row">
+          <div class="d-none d-lg-block">
+            <h1 class="display-4 text-center">Welcome to
+              <strong>Toronto Skillz</strong> FC!
+            </h1>
+            <div class="d-flex">
+              <div class="p-4 align-self-end">
+                <p>We're excited that you have decided to join us. I think you're making an awesome decision.</p>
+                <p>It's awesome because every one of us here at the academy are all here for you. Your amazing parents, your caring coaches, and all of your teammates surrounding you—everyone here will have a <strong>positive</strong>, <strong>enthusiastic</strong>, and <strong>encouraging</strong> impact on your life.</p>
+                <p>Canadian soccer is growing rapidly in 2019. The country has launched our new professional domestic league. The dream of a career in soccer is becoming a reality for many players, and we want to help you on the journey.</p>
+                <p>It will be intense—even difficult at times—since we are an academy. We aren't a social club. We are here to be your soccer coach and develop you to the best of our ability.</p>
+                <p>Every day of training is an attempt to be a little bit better than the last. When you walk on this pitch, it is time to get to work. It is time to challenge each other. Today, you set the standard for yourself.</p>
+                <p>All of us here, the coaches in the academy and your parents who have entrusted them, have raised the bar high. We're excited to have you reach beyond your imaginable limits.</p>
+                <p>- <i>Jake Doodnath, President & Technical Director</i></p>
+              </div>
+            </div>
+          </div>
+          <div class="d-lg-none">
+            <h3 class="text-center">Welcome to <strong>Toronto Skillz</strong>!</h3>
+            <div class="d-flex">
+              <div class="px-4 pb-auto align-self-end">
+                <p>It's great to have you join us. Every one of us here at the academy are all here for you. Your parents, your coaches, and teammates will have a <strong>positive</strong>, <strong>enthusiastic</strong>, and <strong>encouraging</strong> impact on your life.</p>
+                <p>Canadian soccer is growing after the launch of our new professional domestic league. The dream of a career in soccer is becoming reality, and we want to help you on the journey.</p>
+                <p>It will be intense—even difficult at times—since we are an academy. We aren't a social club. We are here to be your soccer coach and develop you to the best of our ability.</p>
+                <p>Every day of training is an attempt to be a little bit better than the last. When you walk on this pitch, it is time to get to work. Today, you set the standard for yourself.</p>
+                <p>All of us here have raised the bar high. We're excited to have you reach beyond your imaginable limits.</p>
+                <p>- <i>Jake Doodnath, President & Technical Director</i></p>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- STATEMENT HEAD -->
+  <section id="statement-head-section">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center py-5">
+          <h3>Vision Statement</h3>
+          <p class="lead">We aim to be seen as the leader in Ontario's soccer landscape in producing players of both excellent skill and character on and off the field.</p>
+          <h3>Mission Statement</h3>
+          <p class="lead">We aim to provide relentless leadership and mentorship to our players in their efforts to carry excellence in their abilities in soccer and life.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATEMENT SECTION -->
+  <section id="statement-section" class="bg-light text-muted py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <img src="img/explore-section1.png" alt="" class="img-fluid mb-3 d-none d-lg-block">
+        </div>
+        <div class="col-lg-6">
+          <h3>The Toronto Skillz Philosophy</h3>
+          <p>Built on a continued education, we develop our players to understand roles and responsibilities within our system, creating a holistic atmosphere in our developmental success.</p>
+          <div class="d-flex">
+            <div class="p-4 align-self-start">
+              <i class="fas fa-futbol fa-2x"></i>
+            </div>
+            <div class="p-4 align-self-end">
+              In possession, we encourage play out from the back, progressing to the attacking third to create chances with <strong>creativity</strong>, <strong>variety</strong>, and <strong>fearlessness</strong>. We teach our players to have <strong>fast</strong> and <strong>intelligent</strong> intent in our movement, passing, and dribbling.
+            </div>
+          </div>
+          <div class="d-flex">
+            <div class="p-4 align-self-start">
+              <i class="fas fa-futbol fa-2x"></i>
+            </div>
+            <div class="p-4 align-self-end">
+              When not in possession we are teaching the zonal-man and 11 defenders philosophy. Additionally, we teach—as a <strong>team</strong>, <strong>unit</strong>, and <strong>individual</strong>—when to and when not to be aggressive to win possession.
+            </div>
+          </div>
+          <div class="d-flex">
+            <div class="p-4 align-self-start">
+              <i class="fas fa-futbol fa-2x"></i>
+            </div>
+            <div class="p-4 align-self-end">
+              Our <strong>year-round</strong> program consists of <strong>team</strong> and <strong>individual</strong> practice, <strong>playful activities</strong> to hone developed skills, and <strong>match play</strong> to use developed skills in competitive environments. Our training during the off-season is crucial to maximize development as players enter their primes.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DEVELOPMENT MODEL HEAD -->
+  <section id="development-section" class="bg-danger">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center py-5">
+          <h1 class="display-4">Player Development Model</h1>
+          <p class="lead">Our foundation of player development is a continuous cycle to reach peak performance and skill level. Click on each step to get a feel for the importance of our personalized development plans.</p>
+          <button class="btn btn-outline-light" data-toggle="modal" data-target="#coachModal">Coach</button>
+          <i class="fas fa-arrow-circle-right fa-2x align-middle"></i>
+          <button class="btn btn-outline-light" data-toggle="modal" data-target="#trainModal">Train</button>
+          <i class="fas fa-arrow-circle-right fa-2x align-middle"></i>
+          <button class="btn btn-outline-light" data-toggle="modal" data-target="#evaluateModal">Evaluate</button>
+          <i class="fas fa-arrow-circle-right fa-2x align-middle"></i>
+          <button class="btn btn-outline-light" data-toggle="modal" data-target="#feedbackModal">Feedback</button>
+          <i class="fas fa-arrow-circle-right fa-2x align-middle"></i>
+          <button class="btn btn-outline-light" data-toggle="modal" data-target="#planModal">Plan</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PATHWAY SECTION -->
+  <section id="pathway-section" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 order-2">
+          <img src="img\pathway.jpg" alt="" class="img-fluid mb-3 rounded" data-toggle="modal" data-target="#pathwayModal">
+        </div>
+        <div class="col-md-6 order-1">
+          <h3>Player Performance Path</h3>
+          <p>At Toronto Skillz, we provide a clear path for our players to achieve their goals. From Bundesliga/German academy opportunities to the big Canadian clubs, the possibilties are endless.</p>
+          <div class="d-flex">
+            <div class="p-4 align-self-start">
+              <i class="fas fa-calendar-day fa-2x align-middle"></i>
+            </div>
+            <div class="p-4 align-self-end">
+              <p>Today, we execute in the present, improve in the moment to be great.</p>
+            </div>
+          </div>
+
+          <div class="d-flex">
+            <div class="p-4 align-self-start">
+              <i class="fas fa-calendar-week fa-2x"></i>
+            </div>
+            <div class="p-4 align-self-end">
+              <p>Tomorrow, we learn from yesterday. We do not repeat our failures and aim to be better in the future.</p>
+            </div>
+          </div>
+
+          <div class="d-flex">
+            <div class="p-4 align-self-start">
+              <i class="fas fa-calendar-alt fa-2x"></i>
+            </div>
+            <div class="p-4 align-self-end">
+              <p>Beyond, we educate for the future and challenge the status quo with the intent to be more.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- QUALITY-QUANTITY HEAD -->
+  <section id="quality-quantity-section" class="bg-light text-muted">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center py-5">
+          <h1 class="display-4">Quality & Quantity Combined</h1>
+          <p class="lead">Toronto Skillz develops players with a long-term perspective. Constant practice and play is important which is why our season is a full year. However, we also value the importance of rest and recovery between and during matches and practices.</p>
+          <button class="btn btn-outline-secondary" data-toggle="modal" data-target="#articleModal">Click here to read articles</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+
+  <section id="contact-section" class="text-light py-5">
+    <video src="img/timelapse.mp4" autoplay loop muted>
+      <source src="img/timelapse.mp4" type="video/mp4" />
+    </video>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2>Are you ready for the best decision of your life?</h2>
+            <p>From our annual trips to Germany playing against the top European academies to representing our club at an elite level in the top semi-pro soccer league in Canada, we promise to help our players reach our top potential while instilling our core values.</p>
+          <div class="d-flex">
+            <div class="p-4 align-self-start">
+              <i class="fas fa-futbol"></i>
+            </div>
+            <div class="p-4 align-self-end">
+              <strong>Character</strong>: who we are from the inside and how we carry ourselves
+            </div>
+          </div>
+
+          <div class="d-flex">
+            <div class="p-4 align-self-start">
+              <i class="fas fa-futbol"></i>
+            </div>
+            <div class="p-4 align-self-end">
+              <strong>Purpose</strong>: understanding why we are here and what we are to gain from it
+            </div>
+          </div>
+
+          <div class="d-flex">
+            <div class="p-4 align-self-start">
+              <i class="fas fa-futbol"></i>
+            </div>
+            <div class="p-4 align-self-end">
+              <strong>Responsiblity</strong>: to coach, teach, and be a mentor to our players
+            </div>
+          </div>
+
+          <div class="d-flex">
+            <div class="p-4 align-self-start">
+              <i class="fas fa-futbol"></i>
+            </div>
+            <div class="p-4 align-self-end">
+              <strong>Professional</strong>: we look and act like it
+            </div>
+          </div>
+
+          <div class="d-flex">
+            <div class="p-4 align-self-start">
+              <i class="fas fa-futbol"></i>
+            </div>
+            <div class="p-4 align-self-end">
+              Team <strong>Discipline</strong>: to get the most out of the time we have with players
+            </div>
+          </div>
+
+          <div class="d-flex">
+            <div class="p-4 align-self-start">
+              <i class="fas fa-futbol"></i>
+            </div>
+            <div class="p-4 align-self-end">
+              <strong>Fun</strong>: training and soccer is meant to be enjoyable
+            </div>
+          </div>
+          <div class="text-center">
+            <a href="mailto:info@torontoskillz.com?subject=Player%20Inquiry" class="btn btn-outline-light text-center">Send us an email if you're interested</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="main-footer" class="bg-dark">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center py-4">
+          <h3>Toronto Skillz Soccer School Inc.</h3>
+          <p>Copyright &copy;
+            <span id="year"></span>
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- CONTACT MODAL -->
+  <div class="modal fade text-dark" id="contactModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Contact Us</h5>
+          <button class="close" data-dismiss="modal">
+            <span>&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" class="form-control">
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" class="form-control">
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea class="form-control"></textarea>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-primary btn-block">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- COACH MODAL -->
+  <div class="modal fade text-dark" id="coachModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Coach</h5>
+          <button class="close" data-dismiss="modal">
+            <span>&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>Our coaches come from all walks of life, and most of them have played at the professional level. They are accredited by the Union of European Football Association (UEFA), the United States Soccer Federation (USSF), United States Youth Soccer (USYS), United Soccer Coaches (USC) Canada Soccer, and Ontario Soccer.</p>
+          <img src="/img/UEFA.png" alt="" class="d-inline-block img-fluid">
+          <img src="img/ussf.png" alt="" class="d-inline-block img-fluid">
+          <img src="img/usys.png" alt="" class="d-inline-block img-fluid">
+          <img src="img/usc.png" alt="" class="d-inline-block img-fluid">
+          <img src="img/canada.png" alt="" class="d-inline-block img-fluid">
+          <img src="img/ontario.png" alt="" class="d-inline-block img-fluid">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- TRAIN MODAL -->
+  <div class="modal fade text-dark" id="trainModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Train</h5>
+          <button class="close" data-dismiss="modal">
+            <span>&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>Through our year-round program, we are constantly training to ingrain the fundamentals into muscle memory. With our partners at Schaechter Sports, we also bring top German youth coaches to teach our players during our German ID camps.</p>
+          <img src="img/schaechter.png" alt="" class="mx-auto d-block img-fluid">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- EVALUATE MODAL -->
+  <div class="modal fade text-dark" id="evaluateModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Evaluate</h5>
+          <button class="close" data-dismiss="modal">
+            <span>&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>To ensure our lessons have gotten through to each player, we evaluate them in training and during games. With our partners at MSA Football, video analysis and match statistics are provided to coaches starting from the U15 level. From there, we can look and the positives of each individual or team along with highlight things that need to be improved.</p>
+          <img src="img/msa.png" alt="" class="mx-auto d-block img-fluid">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FEEDBACK MODAL -->
+  <div class="modal fade text-dark" id="feedbackModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Feedback</h5>
+          <button class="close" data-dismiss="modal">
+            <span>&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>With all the information we have gathered, we give constructive feedback to our players with the trust that they will focus on making the needed improvements. We check in with players on their physical and mental health.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- PLAN MODAL -->
+  <div class="modal fade text-dark" id="planModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Plan</h5>
+          <button class="close" data-dismiss="modal">
+            <span>&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>We revise or repeat personalized training regimens for the players based on evaluations and feedback. We adjust accordingly and get ready to come full circle as we continue coaching the players to the best of our abilities.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- PATHWAY MODAL -->
+  <div class="modal fade text-dark" id="pathwayModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Player Performance Pathway</h5>
+          <button class="close" data-dismiss="modal">
+            <span>&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <img src="img/pathway.jpg" alt="" class="img-fluid mb-3">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ARTICLE MODAL -->
+  <div class="modal fade text-dark" id="articleModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Quality & Quantity Combined</h5>
+          <button class="close" data-dismiss="modal">
+            <span>&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <ul>
+            <li><a href="https://www.soccermastermind.com/10000-hours-to-the-premier-league/">10,000 Hours to the Premier League</a></li>
+            <li><a href="https://www.parentsinsport.co.uk/2017/08/20/10000-hour-rule-misunderstood-by-sports-parents/">10,000 hour rule - Misunderstood by sports parents?</a></li>
+            <li><a href="https://believeperform.com/performance/overtraining-how-to-prevent-it/">Overtraining - how to prevent it?</a></li>
+            <li><a href="http://www.skillteam.se/wp-content/uploads/2011/12/Ericsson_delib_pract.pdf">The Influence of Experience and Deliberate Practice on the Development of Superior Expert Performance</a></li>
+            <li><a href="http://believeperform.com/coaching/link-motivation-athlete-burnout-2/">The link between movitation and athlete burnout</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+    crossorigin="anonymous"></script>
+
+  <script>
+    // Get the current year for the copyright
+    $('#year').text(new Date().getFullYear());
+
+    // Init Scrollspy
+    $('body').scrollspy({ target: '#main-nav' });
+
+    // Smooth Scrolling
+    $("#main-nav a").on('click', function (event) {
+      if (this.hash !== "") {
+        event.preventDefault();
+
+        const hash = this.hash;
+
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 800, function () {
+
+          window.location.hash = hash;
+        });
+      }
+    });
+  </script>
+</body>
+
+</html>
